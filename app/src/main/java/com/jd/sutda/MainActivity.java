@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         results[4][9] = results[9][4] = 2;
         results[4][7] = results[7][4] = 3;
         results[1][3] = results[3][1] = results[1][8] = results[8][1] = 4;
-        results[9][14] = results[14][9] = results[19][4] = results[4][19] = results[19][14] = results[19][14] = 5;
+        results[9][14] = results[14][9] = results[19][4] = results[4][19] = results[19][14] = results[14][19] = 5;
         results[3][7] = results[7][3] = results[3][17] = results[17][3] = results[13][7] = results[7][13] = results[13][17] = results[17][13] = 6;
         for(int i = 1; i<=10; i++){
             results[i][i+10] = results[i+10][i] = 7;
